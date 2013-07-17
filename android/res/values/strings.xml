@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sukuru</string>
+    <string name="app_signUp">Sign Up</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="bg_desc">This is background image!</string>
+    
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    
+    <string name="loginTxt_top">Welcome to Sukuru. Sukuru Calendar helps you to get through
+        						the week easily and quickly.</string>
+    <string name="loginBtn">Register</string>
+    <string name="loginTxt_btm">Please register to store your calendar</string>
+    
+    <string name="schoolName">School Name</string>
+    <string name="emailAdd">Email Address</string>
+    <string name="key">Password</string>
+    <string name="cKey">Confirm password</string>
+    <string name="signUpCB">I agree to Sukuru Terms</string>
+    <string name="signUpBtn">Sign Up</string>
+
+    <string name="cc_tv01">Create Your School Calendar</string>
+    
+    <string name="ic_tv01"> We will navigate to your school site to download calendar for you.</string>
+    <string name="ic_et_hint01">School ID</string>
+    <string name="ic_et_hint02">Password</string>
+    <string name="ic_btn01">Import</string>
+</resources>

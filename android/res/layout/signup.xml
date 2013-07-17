@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nSchool"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/emailAdd"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailAddress"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/key"
+        android:inputType="textPassword" />
+    
+     <EditText
+         android:id="@+id/cPW"
+         android:layout_width="150dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/password"
+         android:layout_centerHorizontal="true"
+         android:hint="@string/cKey"
+         android:inputType="textPassword" />
+
+      <EditText
+          android:id="@+id/nSchool"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/emailAddress"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="88dp"
+          android:ems="10"
+          android:hint="@string/schoolName"
+          android:inputType="text" >
+
+          <requestFocus />
+      </EditText>
+
+      <Button
+          android:id="@+id/SignUp_btn"
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/cPW"
+          android:layout_below="@+id/cPW"
+          android:layout_marginTop="64dp"
+          android:text="@string/signUpBtn" />
+
+      <CheckBox
+          android:id="@+id/c_terms"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/cPW"
+          android:layout_centerHorizontal="true"
+          android:text="@string/signUpCB" />
+
+</RelativeLayout>

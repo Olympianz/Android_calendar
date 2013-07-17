@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/synccalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/synccalendar" />
+
+    <TextView
+        android:id="@+id/ic_tv01"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/synccalendar"
+        android:text="@string/ic_tv01"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ic_et_sID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_tv01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:hint="@string/ic_et_hint01"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ic_et_ps"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_et_sID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/ic_et_hint02"
+        android:inputType="textPassword" />
+
+    
+    <Button
+        android:id="@+id/ic_btn01"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_et_ps"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/ic_btn01" />
+    
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/cc_tv01"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/cc_tv01"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spinner_year"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cc_tv01"
+        android:layout_alignRight="@+id/cc_tv01"
+        android:layout_below="@+id/cc_tv01"
+        android:layout_marginTop="45dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner_term"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner_year"
+        android:layout_alignRight="@+id/spinner_year"
+        android:layout_below="@+id/spinner_year"
+        android:layout_marginTop="50dp" />
+
+    
+    <Button
+        android:id="@+id/cc_btn01"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_term"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/next" />
+    
+</RelativeLayout>
