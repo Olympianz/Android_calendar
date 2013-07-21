@@ -24,7 +24,7 @@
         android:layout_height="400dp"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:text="@string/loginTxt_top"
+        android:text="@string/rg_top"
         android:textSize="12sp" /> 
 
     <Button
@@ -33,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:layout_width="100dp"
         android:layout_height="50dp" 
-        android:text="@string/loginBtn" />
+        android:text="@string/rg_btm" />
     
      <TextView
         android:id="@+id/loginTxt_btm"
@@ -42,7 +42,7 @@
         android:gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/loginTxt_btm" />
+        android:text="@string/rg_txt" />
     
 
 </RelativeLayout>

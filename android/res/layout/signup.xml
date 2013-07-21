@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/nSchool"
         android:layout_centerHorizontal="true"
-        android:hint="@string/emailAdd"
+        android:hint="@string/sg_et01"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/emailAddress"
         android:layout_centerHorizontal="true"
-        android:hint="@string/key"
+        android:hint="@string/sg_et03"
         android:inputType="textPassword" />
     
      <EditText
@@ -29,7 +29,7 @@
          android:layout_height="wrap_content"
          android:layout_below="@+id/password"
          android:layout_centerHorizontal="true"
-         android:hint="@string/cKey"
+         android:hint="@string/sg_et04"
          android:inputType="textPassword" />
 
       <EditText
@@ -40,7 +40,7 @@
           android:layout_alignParentTop="true"
           android:layout_marginTop="88dp"
           android:ems="10"
-          android:hint="@string/schoolName"
+          android:hint="@string/sg_et01"
           android:inputType="text" >
 
           <requestFocus />
@@ -53,7 +53,7 @@
           android:layout_alignLeft="@+id/cPW"
           android:layout_below="@+id/cPW"
           android:layout_marginTop="64dp"
-          android:text="@string/signUpBtn" />
+          android:text="@string/sg_btn" />
 
       <CheckBox
           android:id="@+id/c_terms"
@@ -61,6 +61,6 @@
           android:layout_height="wrap_content"
           android:layout_below="@+id/cPW"
           android:layout_centerHorizontal="true"
-          android:text="@string/signUpCB" />
+          android:text="@string/sg_cb" />
 
 </RelativeLayout>
